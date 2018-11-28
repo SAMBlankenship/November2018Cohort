@@ -1,0 +1,16 @@
+/*
+
+#E4572E - Orange
+#17BEBB - Teal
+#82131A - Dark Red
+#011627 - Navy
+#E89005 - Gold
+
+*/
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color:#011627;
+    color: white;
+}

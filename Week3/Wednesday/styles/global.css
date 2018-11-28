@@ -1,0 +1,75 @@
+/*
+
+#E4572E - Orange
+#17BEBB - Teal
+#82131A - Dark Red
+#011627 - Navy
+#E89005 - Gold
+
+*/
+
+body{
+    margin: 0px;
+}
+
+.fontHeavy{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    /* line-height: 51px;
+    font-size: 46px; */
+    text-transform: uppercase;
+    /* margin: 0 0 23px 0; */
+}
+
+.fontMedium{
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-style: italic;
+    /* font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 23px 0; */
+}
+
+.fontThin{
+    font-family: 'Droid Serif', serif;
+    /* font-size: 15px;
+    line-height: 23px;
+    margin: 0 0 23px 0; */
+}
+
+.bigFont{
+    font-size: 50px;
+}
+
+.mediumFont{
+    font-size: 20px;
+}
+
+.smallFont{
+    font-size: 15px;
+}
+
+.whiteFont{
+    color: white;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float:right
+}
+
+.clear{
+    clear: both;
+}
+
+.marginLeft{
+    margin-left: 10px;
+}
+
+.marginRight{
+    margin-right: 10px;
+}
+

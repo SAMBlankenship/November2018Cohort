@@ -1,0 +1,77 @@
+/*
+
+#E4572E - Orange
+#17BEBB - Teal
+#82131A - Dark Red
+#011627 - Navy
+#E89005 - Gold
+
+*/
+
+/* header styles */
+header{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+header ul{
+    
+    margin: 0px;
+    padding-right: 60px;
+}
+
+header li{
+    display: inline;
+    padding-left: 40px;
+    
+}
+
+nav{
+    text-align: right;
+    padding-right: 25px;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    background-color:black;
+    padding: 10px;
+    opacity: .25;
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+    color: white;
+    
+}
+
+.overlay{
+    opacity: .3;
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    background-color:black;
+    z-index: 10;
+    height: 400px;
+    width: 900px;
+    border-radius: 20px;
+}
+.headerImgContainer{
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/44/Panoramic_Houston_skyline.jpg'); */
+    height: 300px;
+}
+
+.headerImg{
+    position: relative;
+    /* top: -60px; */
+    opacity: 0.9;
+    min-width: 100%;
+}
+
+.headerText{
+    z-index: 25;
+    position: absolute;
+    top: 45%;
+    color: white;
+    left: 20%;
+    font-size: 80px;
+    text-align: center;
+}

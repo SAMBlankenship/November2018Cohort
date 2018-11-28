@@ -1,0 +1,63 @@
+/*
+
+#E4572E - Orange
+#17BEBB - Teal
+#82131A - Dark Red
+#011627 - Navy
+#E89005 - Gold
+
+*/
+
+header{
+    position: relative;
+}
+
+.headerImage{
+    height: 500px;
+    overflow: hidden;
+}
+
+.textContainer{
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    text-align: center;
+    width:600px;
+    height: 300px;
+    z-index: 20;
+}
+
+.headerText{
+    z-index: 10;
+}
+
+.headerTextBox{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 5;
+    top: 25%;
+    left: 15%;
+    border-radius: 20px;
+}
+
+header ul{
+    list-style: none;
+    margin: 0px;
+}
+
+header li {
+    display: inline;
+    padding-right: 25px;
+}
+
+nav{
+    text-align: right;
+    background-color: #011627;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+

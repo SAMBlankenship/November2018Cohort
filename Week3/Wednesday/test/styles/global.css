@@ -1,0 +1,41 @@
+/*
+
+#E4572E - Orange
+#17BEBB - Teal
+#82131A - Dark Red
+#011627 - Navy
+#E89005 - Gold
+
+*/
+
+body{
+    margin: 0px;
+    background-color: #666666;
+}
+
+.fontAccent{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    /* line-height: 46px; */
+    /* font-size: 40px; */
+
+}
+
+.fontBold{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    /* font-size: 18px; */
+    /* line-height: 23px; */
+}
+
+.fontMain{
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 14px; */
+    /* line-height: 23px */
+}
+
+.clear{
+    clear: both;
+}

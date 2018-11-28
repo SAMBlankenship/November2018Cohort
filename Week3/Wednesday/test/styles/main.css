@@ -1,0 +1,100 @@
+/*
+
+#E4572E - Orange
+#17BEBB - Teal
+#82131A - Dark Red
+#011627 - Navy
+#E89005 - Gold
+
+*/
+
+
+.lightGrayPanel{
+    background-color: #eeebeb;
+    height: 440px;
+    padding-top: 60px;
+}
+
+.whitePanel{
+    height: 440px;
+    padding-top: 60px;
+    background-color: white;
+    
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://www.samanddannis.com/wp-content/uploads/2017/12/DogCat.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("http://www.wsllpaper.com/wp-content/uploads/2013/08/cute-golden-retriever-puppy-hd-desktop-wallpaper.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.floatLeft{
+    float:left;
+}
+
+.floatRight{
+    float: right;
+}
+
+.ml{
+    margin-left: 50px;
+}
+
+.mt{
+    padding-top: 50px;
+}
+
+.pl{
+    padding-left: 50px;
+}
+
+.pr{
+    padding-right: 50px;
+}
+
+.pictureImg{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contentContainer{
+
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.bannerText{
+    background-color: #82131A;
+    width: 100%;
+    height: 75px;
+    color: #E89005;
+    text-align: center;
+}
