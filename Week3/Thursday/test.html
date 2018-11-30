@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .flexcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.box11 {
+    flex: 2;
+    background-color: pink;
+}
+
+.box12 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-left-color: black;
+    border-left-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box121 {
+    flex: 1;
+    background-color: yellow;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}                         
+
+.box122 {
+    flex: 2;
+    background-color: yellow;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box247 {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+
+.box123 {
+    flex: 1;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box124 {
+    flex: 1;
+}
+
+.box125 {
+    flex: 1;
+    border-top-color: black;
+    border-top-style: solid;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box126 {
+    flex: 1;
+    background-color: blue;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box127 {
+    flex: 1;
+    background-color: blue;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box128 {
+    flex: 2;
+    background-color: red;
+}
+
+.box21 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box211 {
+    background-color: blue;
+    flex: 2;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box212 {
+    background-color: red;
+    flex: 2;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box213 {
+    flex: 1;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    
+}
+
+.box429 {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+
+.box214 {
+    flex: 1;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box215 {
+    flex: 1;
+}
+
+.box216 {
+    background-color: yellow;
+    flex: 2;
+    border-top-color: black;
+    border-top-style: solid;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box435 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.box217 {
+    flex: 1;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box218 {
+    flex: 1;
+    background-color: black;
+}
+
+.box22 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box22A {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-start;
+    order: 1; */
+}
+
+.box443 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.box221 {
+    flex: .5;
+    background-color: yellow;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box222 {
+    flex: .5;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box224 {
+    flex: 1;
+    background-color: yellow;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-top-color: black;
+    border-top-style: solid;
+}
+
+.box225 {
+    flex: 1;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box226 {
+    flex: 1;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box227 {
+    flex: 1;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+
+.box22B {
+    flex: 4;
+    background-color: blue;
+    justify-content: left;
+    align-content: space-between;
+    /* align-self: flex-start;
+    order: 1; */
+}
+
+.box22C {
+    flex: 1;
+    justify-content: left;
+    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+    /* align-self: flex-start;
+    order: 1; */
+}
+
+.box234 {
+    flex: 2;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box235 {
+    flex: 1;
+}
+
+.box22D {
+    flex: 1;
+    background-color: brown;
+    /* align-self: flex-end;
+    order: 1; */
+}
+
+.box22E {
+    flex: 4;
+    background-color: turquoise;
+    /* align-self: flex-end;
+    order: 1; */
+   
+}
+
+.box22F {
+    flex:8;
+    background-color: yellow;
+    /* align-self: flex-end;
+    order: 1; */
+}
+    </style>
+</head>
+<body>
+        <div class="flexcontainer">
+                <div class="box11">
+                    big column 1st box
+                </div>
+                <div class="box12">
+                     <div class="box121">                         
+                    </div>
+                    <div class="box122">        
+                    </div>
+                    <div class="box247">
+                            <div class="box123">        
+                            </div>
+                            <div class="box124">
+                            </div>
+                        </div>
+                    <div class="box125">        
+                    </div>
+                    <div class="box126">                         
+                    </div>
+                    <div class="box127">        
+                    </div>
+                    <div class="box128">                         
+                    </div>
+                </div>
+                <div class="box21">
+                    <div class="box211">                         
+                    </div>
+                    <div class="box212">        
+                    </div>
+                    <div class="box213">        
+                    </div>
+                    <div class="box429">
+                        <div class="box214">        
+                        </div>
+                        <div class="box215">
+                        </div>
+                    </div>                    
+                    <div class="box216">
+                    </div>
+                    <div class="box435">
+                        <div class="box217">
+                        </div>
+                        <div class="box218">
+                        </div>
+                    </div>
+                </div>
+                <div class="box22">
+                    <div class="box22A">
+                        <div class="box443">
+                            <div class="box221">   
+                                A     
+                            </div>
+                            <div class="box222">
+                            </div>
+                        </div>
+                        <div class="box224">                         
+                        </div>
+                        <div class="box225">        
+                        </div>
+                        <div class="box226">        
+                        </div>                    
+                        <div class="box227">
+                        </div>
+                    </div>
+                    <div class="box22B">
+                        B
+                    </div>
+                    <div class="box22C">
+                        C
+                            <div class="box234">        
+                            </div>
+                            <div class="box235">
+                            </div>
+                    </div>
+                    <div class="box22D">
+                        D 
+                    </div>
+                    <div class="box22E">
+                        E 
+                    </div>
+                    <div class="box22F">
+                        F 
+                    </div>
+                </div>
+            </div>
+        </body>
+</body>
+</html>
