@@ -1,0 +1,37 @@
+.section{
+    height: 400px;
+}
+
+
+.sectionGray-bg{
+    background-color: rgb(232, 234, 235);
+    
+}
+
+.sectionWhite-bg{
+    background-color: white;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://www.chowstatic.com/assets/recipe_photos/11211_banh_mi.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.noBorder{
+    border: none;
+}
+
+.imgWrapper{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}

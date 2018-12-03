@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    height: 500px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+.headerTextParent{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 30;
+}
+
+.video{
+    z-index: 10;
+}
