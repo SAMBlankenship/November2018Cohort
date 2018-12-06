@@ -185,8 +185,6 @@ function acronymn(arr){
     return p;
 }
 
-;
-
 console.log(acronymn(p))
 console.log(acronymn(q))
 
